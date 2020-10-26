@@ -1,0 +1,68 @@
+body {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #222;
+
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  color: #e8e8e8;
+
+  padding: 0 10px;
+}
+
+status {
+  font-family: 'Special Elite', cursive;
+  font-size: 64px;
+  color: #e8e8e8;
+
+  margin: 0 0 10px 0;
+
+  transform: rotate(-1.5deg);
+}
+
+descriptionWrapper {
+  margin: 0 0 0 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+descriptionText {
+  margin: 0 0 0px 0;
+}
+
+input {
+  margin: 10px 0;
+  display: none;
+}
+
+label {
+  margin: 10px 0 0 0;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: #e8e8e8;
+  color: #222;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+label:hover {
+  background-color: #222;
+  color: #e8e8e8;
+}
+
+.link {
+  margin: 15px 0 0 0;
+  color: #1FC0DE;
+}
